@@ -1,0 +1,14 @@
+server:
+    port: 8080
+es:
+    rest:
+        server:
+            endpoint: 192.168.1.51:9200
+    words:
+        file:
+            path: config/words.txt
+logging:
+    level:
+        org:
+            springframework: DEBUG
+
